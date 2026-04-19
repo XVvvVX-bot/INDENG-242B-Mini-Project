@@ -67,6 +67,8 @@ Results are stored under `outputs/`:
 - `summary_*.json`
 - `traces_*.jsonl`
 
+A curated example run is also included under `sample_results/` so the repository contains one concrete result without checking in every local run artifact.
+
 ## Notes for the report
 
 This experiment is intentionally lightweight. It captures the main idea of ReAct from Yao et al. (2023): alternating reasoning with environment interaction can improve performance on multi-hop questions by letting the model gather evidence before committing to an answer.

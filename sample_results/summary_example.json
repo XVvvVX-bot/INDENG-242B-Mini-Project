@@ -1,0 +1,8 @@
+{
+  "created_at": "20260415_160447",
+  "num_examples": 1,
+  "accuracy": 0.0,
+  "correct": 0,
+  "mode": "react_workflow_demo",
+  "note": "The ReAct workflow successfully retrieved relevant evidence, but exact-match scoring marked 'Honolulu County' as different from the gold label 'Honolulu'."
+}
