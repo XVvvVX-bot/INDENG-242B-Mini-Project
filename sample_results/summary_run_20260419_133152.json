@@ -1,0 +1,13 @@
+{
+  "created_at": "20260419_133152",
+  "num_examples": 3,
+  "accuracy": 0.3333333333333333,
+  "correct": 1,
+  "mode": "react_workflow_demo",
+  "model": "gemini-2.5-flash-lite",
+  "notes": [
+    "Case 1 retrieved the correct evidence chain for Schofield Barracks but answered 'Honolulu County' instead of the gold label 'Honolulu'.",
+    "Case 2 failed badly: the agent got stuck in repetitive search loops and produced a wrong answer ('2012') for a question whose gold label was 'in 2000'.",
+    "Case 3 succeeded cleanly: it identified that Alexandra David-Neel and Jack Kerouac share the profession 'writer'."
+  ]
+}
